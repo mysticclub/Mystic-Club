@@ -90,7 +90,9 @@ let chtxt = `👤 *𝚄𝚜𝚎𝚛* » ${m.pushName || 'Anónimo'}
 🍨 *𝙴𝚍𝚊𝚍* » ${user.age} años
 ⌨️ *𝙳𝚎𝚜𝚌𝚛𝚒𝚙𝚌𝚒𝚘𝚗* » ${user.descripcion}
 🍭 *𝙽𝚞𝚖𝚎𝚛𝚘 𝚍𝚎 𝚛𝚎𝚐𝚒𝚜𝚝𝚛𝚘* »
-⤷ ${sn}`;
+⤷ ${sn}
+⤷> verifica tu registro aquí👇
+https://whatsapp.com/channel/0029Vb8Pug46hENhGBTRzf2F`;
 
     let channelID = '120363388858674229@newsletter';
         await conn.sendMessage(channelID, {
