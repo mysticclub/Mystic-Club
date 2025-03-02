@@ -17,7 +17,7 @@ async function handler(m, { conn: stars, usedPrefix }) {
   let users = [...uniqueUsers.values()]
   let totalUsers = uniqueUsers.size
 
-  let img = 'https://i.ibb.co/HT2NNf6r/file.jpg';
+  let img = 'https://i.ibb.co/DHxTn2Jf/file.jpg';
 
   let message = users.map((v, index) => `
 *[ \`${index + 1}\` - ${v.user.name || 'Sin Nombre'} ]*
