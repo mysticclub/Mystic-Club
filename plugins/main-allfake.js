@@ -103,10 +103,10 @@ global.canalNombreM = ["MɎSŦƗȻ ȻŁᵾɃ", "MɎSŦƗȻ ȻŁᵾɃ"]
 global.channelRD = await getRandomChannel()
 
 global.icono = [ 
-'https://qu.ax/aQWkg.jpg',
-'https://qu.ax/xYAPu.jpg',
-'https://qu.ax/pcKXp.jpg',
-'https://qu.ax/kJBTp.jpg',
+'https://i.ibb.co/CKFj3Hcc/file.jpg',
+'https://i.ibb.co/CKFj3Hcc/file.jpg',
+'https://i.ibb.co/CKFj3Hcc/file.jpg',
+'https://i.ibb.co/CKFj3Hcc/file.jpg',
 ].getRandom()
 
 global.urls = [
