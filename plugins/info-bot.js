@@ -44,7 +44,7 @@ conn.reply(m.chat, `*Tu Mamá we 🍆🥵*`, m, rcanal, )
 }
 
 if (/^Mystic$/i.test(m.text)) {
-conn.reply(m.chat, `*Hola Eres Fan De* *Mystic Bot *
+conn.reply(m.chat, `*Hola Eres Fan De* *Mystic Bot*
 *Entonces Sigue El Canal Oficial!*\n> https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x/\n\n*Gracias por utilizar MYSTIC-MC* `, m, rcanal, )
 }
 
