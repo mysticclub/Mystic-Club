@@ -18,7 +18,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         "participant": "0@s.whatsapp.net"
     };
 
-    let crow = `🍁 *Respeta las reglas de Mystic-Bot*\n
+    let crow = `🍁 *Respeta las reglas de Alya-Bot*\n
 ✰ No llamar Al Bot
 ✰ No hacer spam
 ✰ Contacta al creador si es necesario
@@ -26,7 +26,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 💛 𝗡𝗼𝘁𝗮: *Si no cumples con las reglas del bot, seras bloqueado.*
 
-💛 𝗔𝘃𝗶𝘀𝗼: *Puedes apoyarnos dejando una estrellita 🌟 al repositorio oficial de CrowBot: ${repobot}*
+💛 𝗔𝘃𝗶𝘀𝗼: *somos los mejores con contenido +18*
 
 ${global.md || ''}`.trim(); // Asegúrate de que global.md esté definido
 
