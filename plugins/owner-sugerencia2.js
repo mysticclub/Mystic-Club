@@ -13,7 +13,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     await conn.reply(channelChatId, m.quoted ? teks + m.quoted.text : teks, m, { mentions: conn.parseMention(teks) })
     await conn.reply(creatorsChatId, teks, m, { mentions: conn.parseMention(teks) })
 
-    m.reply('🌠 La sugerencia se envió al Staff De CrowBot y a los creadores.')
+    m.reply('🌠 La sugerencia se envió al Staff De Mystic Bot y a los creadores.')
 }
 handler.help = ['sugerencia2']
 handler.tags = ['owner']
