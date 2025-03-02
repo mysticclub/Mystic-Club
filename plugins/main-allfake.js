@@ -32,15 +32,15 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador y otros
-global.creador = 'Wa.me/50557865603'
+global.creador = 'Wa.me/51920227615'
 global.botreal = `${(conn.user.jid == global.conn.user.jid ? 'Oficial' : 'Sub-Bot')}`
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/50557865603'
-global.namech = '˙˒𖥻˚𝐂𝐫𝐨𝐰𝐁𝐨𝐭 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥﹋꥟'
-global.namechannel2 = '『✯ 𝗧𝗲𝗮𝗺 𝗖𝗼𝗺𝘂𝗻𝗶𝘁𝘆 𝗖𝗿𝗼𝘄 ✯』'
-global.namegrupo = 'シ︎ 𝗖𝗿𝗼𝘄𝗕𝗼𝘁-𝗠𝗗 💛'
-global.namecomu = '『𝗚𝗿𝘂𝗽𝗼 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 𝗖𝗿𝗼𝘄𝗕𝗼𝘁✯』'
-global.namecomu2 = '𝗧𝗵𝗲𝗖𝗿𝗼𝘄𝗕𝗼𝘁'
+global.asistencia = 'Wa.me/51920227615'
+global.namech = 'MɎSŦƗȻ ȻŁᵾɃ'
+global.namechannel2 = 'MɎSŦƗȻ ȻŁᵾɃ'
+global.namegrupo = ' MYSTIC BOT'
+global.namecomu = 'MɎSŦƗȻ ȻŁᵾɃ'
+global.namecomu2 = 'MɎSŦƗȻ ȻŁᵾɃ'
 
 //Reacciones De Comandos.!
 global.rwait = '🕒'
@@ -88,18 +88,18 @@ global.readMore = more.repeat(850)
 
 global.authsticker = `┊🤖Bot\n┊↳${botname}\n\n┊👑Usuario\n┊↳ @${conn.getName(m.sender)}`;
 
-global.packsticker = `┊ 🔱𝐒𝐪𝐮𝐚𝐝 𝐂𝐫𝐨𝐰'𝐬 𝐂𝐥𝐮𝐛\n↳https://crow-bot-dashboard.vercel.app/\n\n┊ 🎩Info:\n↳Wa.me/50557865603`
+global.packsticker = `┊ MɎSŦƗȻ ȻŁᵾɃ\n↳https://MYSTIC BOT-CANAL-OFC/\n\n┊ 🎩Info:\n↳Wa.me/51920227615`
 
 //Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=50557865603:50557865603\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363377595441592@newsletter', newsletterName: "ᰔᩚ . ˚ Tᥱᥲm M᥆᥆ᥒ F᥆rᥴᥱ  ֹ ☆˒", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363374826926142@newsletter', newsletterName: "MɎSŦƗȻ ȻŁᵾɃ˒", serverMessageId: -1 }
 }}, { quoted: m }
 
 //Id Channel
-global.idchannel = '120363381910502266@newsletter'
-global.canalIdM = ["120363377595441592@newsletter", "120363368073378190@newsletter", "120363387375075395@newsletter"]
-global.canalNombreM = ["ᰔᩚ . ˚ Cһᥲᥒᥒᥱᥣ 〢Tᥱᥲm M᥆᥆ᥒ F᥆rᥴᥱ  ֹ ☆˒", "✯ 𝐂𝐫𝐨𝐰𝐁𝐨𝐭 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✯", "⏤͟͟͞͞☆ 𝐂𝐫𝐨𝐰𝐁𝐨𝐭 𝐓𝐞𝐬𝐭 『𝐏𝐨𝐝𝐜𝐚𝐬𝐭』"]
+global.idchannel = '120363374826926142@newsletter'
+global.canalIdM = ["120363374826926142@newsletter", "120363374826926142@newsletter", "120363374826926142@newsletter"]
+global.canalNombreM = ["MɎSŦƗȻ ȻŁᵾɃ", "MɎSŦƗȻ ȻŁᵾɃ,"MɎSŦƗȻ ȻŁᵾɃ"]
 global.channelRD = await getRandomChannel()
 
 global.icono = [ 
