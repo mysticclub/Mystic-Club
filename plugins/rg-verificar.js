@@ -54,7 +54,9 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
     regbot += `• 5 MysticCoins 🪙\n> `
     regbot += `• 245 Experiencia 💸\n> `
     regbot += `• 12 Tokens 💰\n`
-    regbot += `꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷\n> `
+    regbot += `꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷\n>
+               `> verifica tu registro aquí👇
+https://whatsapp.com/channel/0029Vb8Pug46hENhGBTRzf2F`
     regbot += `${dev}`
 
   await conn.sendMessage(m.chat, {
@@ -90,9 +92,7 @@ let chtxt = `👤 *𝚄𝚜𝚎𝚛* » ${m.pushName || 'Anónimo'}
 🍨 *𝙴𝚍𝚊𝚍* » ${user.age} años
 ⌨️ *𝙳𝚎𝚜𝚌𝚛𝚒𝚙𝚌𝚒𝚘𝚗* » ${user.descripcion}
 🍭 *𝙽𝚞𝚖𝚎𝚛𝚘 𝚍𝚎 𝚛𝚎𝚐𝚒𝚜𝚝𝚛𝚘* »
-⤷ ${sn}
-⤷> verifica tu registro aquí👇
-https://whatsapp.com/channel/0029Vb8Pug46hENhGBTRzf2F`;
+⤷ ${sn}`;
 
     let channelID = '120363388858674229@newsletter';
         await conn.sendMessage(channelID, {
