@@ -31,7 +31,7 @@ let ager = [ "18", "19", "20", "17", "16"].getRandom();
     regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
     regbot += `「💝」𝐑𝐞𝐜𝐨𝐦𝐩𝐞𝐧𝐬𝐚𝐬:\n> `
     regbot += `• 5 Estrellas 🌟\n> `
-    regbot += `• 3 CrowCoins 🪙\n> `
+    regbot += `• 3 MysticCoins 🪙\n> `
     regbot += `• 100 Experiencia 💸\n> `
     regbot += `• 5 Tokens 💰\n`
     regbot += `꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷\n> `
@@ -43,9 +43,9 @@ let ager = [ "18", "19", "20", "17", "16"].getRandom();
         contextInfo: {
             externalAdReply: {
                 title: '⊱『🌃𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥🍬』⊰',
-                body: '¡Bienvenido a CrowBot!',
+                body: '¡Bienvenido a MysticBot!',
                 thumbnailUrl: 'https://i.ibb.co/GMTyKcN/file.jpg',
-                sourceUrl: 'https://whatsapp.com/channel/0029Vb1kImN42Dcn99y1rW0E',
+                sourceUrl: 'https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x',
                 mediaType: 1,
                 showAdAttribution: true,
                 renderLargerThumbnail: true
@@ -53,7 +53,7 @@ let ager = [ "18", "19", "20", "17", "16"].getRandom();
         }
     }, { quoted: m });
 
-    let channelID = '120363387375075395@newsletter';
+    let channelID = '120363388858674229@newsletter';
     let messageContent = `◉ *Usuarios:* ${m.pushName || 'Anónimo'}\n◉ *Verificación:* ${defaultName}\n◉ *Edad:* ${defaultAge} años\n◉ *Número de serie:*\n⤷ ${sn}\n\n🎁 *Recompensa:* 5 Estrellas 🪙\n*¡Bienvenido/a al bot!*`;
 
     await conn.sendMessage(channelID, {
