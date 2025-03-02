@@ -5,7 +5,7 @@ handler.all = async function(m) {
 const chat = global.db.data.chats[m.chat];
 if (chat.isBaneed) return
 if (/^bot$/i.test(m.text)) {
-conn.reply(m.chat, `🌠 ¡Hola! Soy MYSTIC-BOT, en que puedo ayudarte hoy?\n\n✰ Usa *.menu* para ver mis comandos.`, m, rcanal, )
+conn.reply(m.chat, `🌠 ¡Hola! Soy ALYA-BOT, en que puedo ayudarte hoy?\n\n✰ Usa *.menu* para ver mis comandos.`, m, rcanal, )
 }
 /*if (/^que|q$/i.test(m.text)) {
 conn.reply(m.chat, `*so*`, m, rcanal, )
@@ -43,9 +43,9 @@ if (/^Bot en decadencia/i.test(m.text)) {
 conn.reply(m.chat, `*Tu Mamá we 🍆🥵*`, m, rcanal, )
 }
 
-if (/^Mystic$/i.test(m.text)) {
-conn.reply(m.chat, `*Hola Eres Fan De* *Mystic Bot*
-*Entonces Sigue El Canal Oficial!*\n> https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x\n\n*Gracias por utilizar MYSTIC-MC* `, m, rcanal, )
+if (/^ALYA$/i.test(m.text)) {
+conn.reply(m.chat, `*Hola Eres Fan De* *Alya Bot*
+*Entonces Sigue El Canal Oficial!*\n> https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x\n\n*Gracias por utilizar ALYA-MC* `, m, rcanal, )
 }
 
 if (/^reglasgp|.reglasgp$/i.test(m.text)) {
@@ -73,7 +73,7 @@ conn.reply(m.chat, `**R꙰EGLAS DEL GRUP❍ꪜ*
 █║║██║║██║║██║║██║║█
 ✧･ﾟ: *✧･Atte.
 
-☆ ፝͜★ৡ͜͡✞ *Mystic-Bot* ➵͡☠️⃪̸ੵ᷒ᰰ↱
+☆ ፝͜★ৡ͜͡✞ *Alya-Bot* ➵͡☠️⃪̸ੵ᷒ᰰ↱
 
 ✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:*✧･ﾟ: *✧･ﾟ:*`, m, rcanal, )
 }
