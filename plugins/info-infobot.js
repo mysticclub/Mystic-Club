@@ -55,7 +55,7 @@ setTimeout(resolve, 1000)
 }
 let timestamp = speed()
 let latensi = speed() - timestamp
-let crow = `╭─⬣「 *Info De Mystic Bot* 」⬣\n`
+let crow = `╭─⬣「 *Info De Alya Bot* 」⬣\n`
 crow += `│ 👑 *Creador* : @${owner[0][0].split('@s.whatsapp.net')[0]}\n`
 crow += `│ 🍭 *Prefijo* : [  ${usedPrefix}  ]\n`
 crow += `│ 📦 *Total Plugins* : ${totalf}\n`
