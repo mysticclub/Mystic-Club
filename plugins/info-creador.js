@@ -24,7 +24,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 showAdAttribution: true,
                 title: 'һ᥆ᥣᥲ s᥆ᥡ seishiro nagi',
                 body: dev,
-                thumbnailUrl: 'https://i.ibb.co/81cg1pC/file.jpg',
+                thumbnailUrl: 'https://i.ibb.co/YBfbBdLj/file.jpg',
                 sourceUrl: 'https://github.com/Seishiro Nagi',
                 mediaType: 1,
                 renderLargerThumbnail: true
